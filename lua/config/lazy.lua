@@ -36,7 +36,7 @@ local plugins = {
 
 		{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
 
-		-- import/override with your plugins
+		-- import/override from './plugins' folder
 		{ import = "plugins" },
 	},
 	defaults = {

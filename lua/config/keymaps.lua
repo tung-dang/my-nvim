@@ -273,6 +273,10 @@ map("n", "dd", '"_dd', { desc = "Delete line without yank" })
 -- map("i", "<C-k>", "<Up>", { desc = "Move cursor up" })
 -- map("i", "<C-l>", move_right, { desc = "Move cursor right" })
 
+-- Telescope keymaps
+map('n', '<C-p>', telescope_builtin.find_files, { desc = 'Find files in current project'})
+-- map('n', '<leader>fg', telescope_builtin.live_grep, { desc = 'Search for text in current project'})
+
 -- LSP keymaps
 map("n", "gr", telescope_builtin.lsp_references, { desc = "Find all references" })
 map("n", "gR", vim.lsp.buf.rename, { desc = "Rename" })

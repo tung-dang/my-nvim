@@ -124,6 +124,14 @@ return {
 			end,
 			desc = "Show explorer",
 		},
+    -- Ctrl+s to show explorer
+		{
+			"<C-s>",
+			function()
+				Snacks.explorer()
+			end,
+			desc = "Show explorer",
+		},
 		{
 			"<leader>gt",
 			function()
