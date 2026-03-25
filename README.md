@@ -1,5 +1,6 @@
 # Awesome Neovim Config
 
+This repo is forked from https://github.com/fredguile/awesome-nvim-config
 My personal Neovim configuration based on [LazyVim](https://www.lazyvim.org/).
 
 ## Features
